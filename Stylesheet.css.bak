@@ -1,0 +1,74 @@
+@font-face {
+	font-family: genshin;
+	src: url("assets/genshin_font.ttf");
+}
+body {
+	background-image: url("assets/background.png");
+	background-attachment: fixed;
+	background-color: #2e0f33; 
+	color: #e6e6e6;
+	margin: 200px;
+	font-family: genshin;
+	line-height: 110%;
+} 
+h1 {
+	font-size: 65px;
+	font-family: genshin;
+	border-bottom: 5px solid;
+}
+a {
+	color: #ae73bd; 
+	text-decoration: none;
+	active-color: #8b499c;
+	hover-color: #e7bbf2;
+}
+p {
+	text-indent: 20px;
+}
+p.footnote {
+	color: #efdff5;
+	font-size: 12px;
+	font-family: genshin;
+}
+li.footnote {
+	color: #efdff5;
+	font-size: 12px;
+	font-family: genshin;
+}
+h2 {
+	font-size: 18px;
+	padding-left: 12px;
+}
+h3 {
+	color: #ffd9fa;
+	font-size: 18px;
+	font-family: genshin;
+	border-bottom: 2px solid;
+}
+h4{
+	font-size: 14px;
+	font-family: genshin;
+}
+em {
+	color: #e4aee6;
+	font-family: genshin;
+}
+div {
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: rgba(28, 21, 36, .5);
+}
+div.body {
+	border: 2px solid;
+	border-radius: 3px;
+	padding: 5px;
+	background-color: rgba(28, 21, 36, .85);
+}
+div.ToC {
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: rgba(28, 21, 36, .5);
+	margin-right: 80%;
+}
